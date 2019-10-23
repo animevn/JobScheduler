@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">JobSchedulerDemo</string>
+    <string name="textView">Network type required</string>
+    <string name="rbnNone">None</string>
+    <string name="rbnAny">Any</string>
+    <string name="rbnWifi">Wifi</string>
+    <string name="textview1">Status required</string>
+    <string name="swIdle">Device Idle   \ </string>
+    <string name="swCharge">Device Charging   \ </string>
+    <string name="textview3">Duration</string>
+    <string name="tvDuration">Not set</string>
+    <string name="bnSchedule">Schedule</string>
+    <string name="bnCancel">Cancel</string>
 </resources>
