@@ -11,4 +11,9 @@
     <string name="tvDuration">Not set</string>
     <string name="bnSchedule">Schedule</string>
     <string name="bnCancel">Cancel</string>
+
+    <string name="form">%1$d s</string>
+    <string name="job_scheduled">Job Scheduled, will run when the constraints are met</string>
+    <string name="no_constraint_toast">Please set at least one constraint</string>
+    <string name="job_cancelled">Job Cancelled</string>
 </resources>
