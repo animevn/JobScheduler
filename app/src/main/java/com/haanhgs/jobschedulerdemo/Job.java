@@ -10,7 +10,6 @@ add these lines to manifest
      android:permission="android.permission.BIND_JOB_SERVICE">
 </service>
 */
-
 public class Job extends JobService {
 
     public static final int ID = 1979;
