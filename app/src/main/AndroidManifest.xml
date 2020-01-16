@@ -5,7 +5,6 @@
 
     <dist:module dist:instant="true" />
 
-
     <application
         android:allowBackup="true"
         android:fullBackupContent="true"
@@ -21,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".Job"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            >
+        </service>
     </application>
 
 </manifest>
