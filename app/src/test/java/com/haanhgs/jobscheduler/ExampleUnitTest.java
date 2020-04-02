@@ -1,4 +1,4 @@
-package com.haanhgs.jobschedulerdemo;
+package com.haanhgs.jobscheduler;
 
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.haanhgs.jobschedulerdemo">
+    package="com.haanhgs.jobscheduler">
 
     <dist:module dist:instant="true" />
 
@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.haanhgs.jobscheduler.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".Job"
+            android:name="com.haanhgs.jobscheduler.Job"
             android:permission="android.permission.BIND_JOB_SERVICE"
             >
         </service>
